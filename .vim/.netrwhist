@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/pacifist/graduate_school'
+let g:netrw_dirhist_2='/home/pacifist/graduate_school/ece5565'
+let g:netrw_dirhist_3='/media/storage/.steam'

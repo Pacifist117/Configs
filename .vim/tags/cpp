@@ -1,0 +1,652 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BACKWARD	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	6;"	d
+BPP	/home/pacifist/morgans_game/RuPPAT/src/Game.h	16;"	d
+BPP	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	18;"	d
+DEGREE_INCREMENT	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float DEGREE_INCREMENT;$/;"	m	class:Player	access:private
+Derivative	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^struct Derivative$/;"	s
+Derivative::ddx	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float ddx;$/;"	m	struct:Derivative	access:public
+Derivative::ddy	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float ddy;$/;"	m	struct:Derivative	access:public
+Derivative::dx	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float dx;$/;"	m	struct:Derivative	access:public
+Derivative::dy	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float dy;$/;"	m	struct:Derivative	access:public
+E	/home/pacifist/morgans_game/RuPPAT/test	/^∏/;"	v
+Entity_desc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^struct Entity_desc$/;"	s
+Entity_desc::mass	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int mass;$/;"	m	struct:Entity_desc	access:public
+Entity_desc::maxAccel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float maxAccel;$/;"	m	struct:Entity_desc	access:public
+Entity_desc::noDrawEffect	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool noDrawEffect;$/;"	m	struct:Entity_desc	access:public
+Entity_desc::x	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float x;$/;"	m	struct:Entity_desc	access:public
+Entity_desc::xAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Entity_desc	access:public
+Entity_desc::xGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Entity_desc	access:public
+Entity_desc::xVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Entity_desc	access:public
+Entity_desc::y	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float y;$/;"	m	struct:Entity_desc	access:public
+Entity_desc::yAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Entity_desc	access:public
+Entity_desc::yGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Entity_desc	access:public
+Entity_desc::yVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Entity_desc	access:public
+Event_desc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^struct Event_desc$/;"	s
+Event_desc::a	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+Event_desc::d	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+Event_desc::down	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+Event_desc::enter	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool enter;$/;"	m	struct:Event_desc	access:public
+Event_desc::left	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+Event_desc::leftCtrl	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool rightCtrl, leftCtrl;$/;"	m	struct:Event_desc	access:public
+Event_desc::right	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+Event_desc::rightCtrl	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool rightCtrl, leftCtrl;$/;"	m	struct:Event_desc	access:public
+Event_desc::s	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+Event_desc::space	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool space;$/;"	m	struct:Event_desc	access:public
+Event_desc::up	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+Event_desc::w	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+FORWARD	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	7;"	d
+GAME_H	/home/pacifist/morgans_game/RuPPAT/src/Game.h	12;"	d
+GPL	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214== Copyright (C) 2002-2011, and GNU GPL'd, by Julian Seward et al.$/;"	v
+G_acceleration	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^float G_acceleration (const Pixel_desc &state, Derivative &output, float t,$/;"	f	signature:(const Pixel_desc &state, Derivative &output, float t, const float objMass, const float objX, const float objY)
+G_acceleration_ent	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^float G_acceleration_ent (const Entity_desc &state, Derivative &output, float t,$/;"	f	signature:(const Entity_desc &state, Derivative &output, float t, const float objMass, const float objX, const float objY)
+Game	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^Game :: Game()$/;"	f	class:Game	signature:()
+Game	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^Game :: Game(int WIDTH_cl, int HEIGHT_cl)$/;"	f	class:Game	signature:(int WIDTH_cl, int HEIGHT_cl)
+Game	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	Game();$/;"	p	class:Game	access:public	signature:()
+Game	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	Game(int WIDTH_cl, int HEIGHT_cl);$/;"	p	class:Game	access:public	signature:(int WIDTH_cl, int HEIGHT_cl)
+Game	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^class Game$/;"	c
+Game	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    by 0x40167E: Game::Game() (Game.cpp:6)$/;"	m	class:Game	file:
+Game::Game	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^Game :: Game()$/;"	f	class:Game	signature:()
+Game::Game	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^Game :: Game(int WIDTH_cl, int HEIGHT_cl)$/;"	f	class:Game	signature:(int WIDTH_cl, int HEIGHT_cl)
+Game::Game	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	Game();$/;"	p	class:Game	access:public	signature:()
+Game::Game	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	Game(int WIDTH_cl, int HEIGHT_cl);$/;"	p	class:Game	access:public	signature:(int WIDTH_cl, int HEIGHT_cl)
+Game::Game	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    by 0x40167E: Game::Game() (Game.cpp:6)$/;"	m	class:Game	file:
+Game::createPixElement	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void createPixElement(  int x, int y,	$/;"	p	class:Game	access:public	signature:( int x, int y, int color, int xAccel, int yAccel, int accLength, int dimFactor, int mass )
+Game::done	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	bool done;$/;"	m	class:Game	access:private
+Game::engine	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	RuPPAT *engine;	$/;"	m	class:Game	access:private
+Game::event	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	SDL_Event event;	$/;"	m	class:Game	access:private
+Game::handleEvents	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: handleEvents(Event_desc &mainEvents)$/;"	f	class:Game	signature:(Event_desc &mainEvents)
+Game::handleEvents	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void handleEvents(Event_desc &mainEvents);$/;"	p	class:Game	access:public	signature:(Event_desc &mainEvents)
+Game::initEvent	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: initEvent(Event_desc &initMe)$/;"	f	class:Game	signature:(Event_desc &initMe)
+Game::initEvent	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void initEvent(Event_desc &initMe);$/;"	p	class:Game	access:public	signature:(Event_desc &initMe)
+Game::parseSelectPixToSurface	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void parseSelectPixToSurface();$/;"	p	class:Game	access:public	signature:()
+Game::players	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	vector<Player *> players;$/;"	m	class:Game	access:private
+Game::rotateSpriteToCoor	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: rotateSpriteToCoor(int p_ID,int x, int y, int rate)$/;"	f	class:Game	signature:(int p_ID,int x, int y, int rate)
+Game::rotateSpriteToCoor	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void rotateSpriteToCoor(int p_ID, int x, int y, int turnRate);$/;"	p	class:Game	access:public	signature:(int p_ID, int x, int y, int turnRate)
+Game::run	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: run(string selection, string option)$/;"	f	class:Game	signature:(string selection, string option)
+Game::run	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void run(string selection, string option);	$/;"	p	class:Game	access:public	signature:(string selection, string option)
+Game::runDemos	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	float runDemos(string selection, string option1, string option2,$/;"	p	class:Game	access:public	signature:(string selection, string option1, string option2, int x1, int y1, int x2, int y2, int x3, int y3)
+Game::setUpdateOnSelectPix	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void setUpdateOnSelectPix(int set);$/;"	p	class:Game	access:public	signature:(int set)
+Game::space	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	bool space;\/\/$/;"	m	class:Game	access:private
+Game::updateSelectPix	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void updateSelectPix();$/;"	p	class:Game	access:public	signature:()
+Game::~Game	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^Game ::~Game()$/;"	f	class:Game	signature:()
+Game::~Game	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	~Game();$/;"	p	class:Game	access:public	signature:()
+Grav_desc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^struct Grav_desc$/;"	s
+Grav_desc::gXacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int gXacc;$/;"	m	struct:Grav_desc	access:public
+Grav_desc::gYacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int gYacc;$/;"	m	struct:Grav_desc	access:public
+Grav_desc::x	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int x, y;$/;"	m	struct:Grav_desc	access:public
+Grav_desc::y	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int x, y;$/;"	m	struct:Grav_desc	access:public
+H	/home/pacifist/morgans_game/RuPPAT/test	/^∏/;"	v
+HEIGHT	/home/pacifist/morgans_game/RuPPAT/src/Game.h	15;"	d
+HEIGHT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int WIDTH, HEIGHT;$/;"	v
+HEIGHT_cl	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^	int HEIGHT_cl = 768;$/;"	v
+ID	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int ID;\/\/identify the pixel, usefule for debugging$/;"	m	struct:Pixel_desc	access:public
+IDbase	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int IDbase;\/\/value of next ID $/;"	m	class:RuPPAT	access:private
+LEFT	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	4;"	d
+M0	/home/pacifist/morgans_game/RuPPAT/test	/^/;"	v
+Mass_desc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^struct Mass_desc$/;"	s
+Mass_desc::mass	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int mass;$/;"	m	struct:Mass_desc	access:public
+Mass_desc::xLoc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xLoc;$/;"	m	struct:Mass_desc	access:public
+Mass_desc::yLoc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int yLoc;$/;"	m	struct:Mass_desc	access:public
+Object	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^Object :: Object(string sprite_path, int start_x, int start_y, int start_mass)$/;"	f	class:Object	signature:(string sprite_path, int start_x, int start_y, int start_mass)
+Object	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		Object(string sprite_path, int start_x, int start_y, int start_mass);$/;"	p	class:Object	access:public	signature:(string sprite_path, int start_x, int start_y, int start_mass)
+Object	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^class Object$/;"	c
+Object::Object	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^Object :: Object(string sprite_path, int start_x, int start_y, int start_mass)$/;"	f	class:Object	signature:(string sprite_path, int start_x, int start_y, int start_mass)
+Object::Object	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		Object(string sprite_path, int start_x, int start_y, int start_mass);$/;"	p	class:Object	access:public	signature:(string sprite_path, int start_x, int start_y, int start_mass)
+Object::descriptor	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		Mass_desc descriptor;$/;"	m	class:Object	access:private
+Object::getDesc	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^Mass_desc Object :: getDesc()$/;"	f	class:Object	signature:()
+Object::getDesc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		Mass_desc getDesc();$/;"	p	class:Object	access:public	signature:()
+Object::getSprite	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^SDL_Surface * Object :: getSprite()$/;"	f	class:Object	signature:()
+Object::getSprite	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		SDL_Surface *getSprite();$/;"	p	class:Object	access:public	signature:()
+Object::getX	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^int Object :: getX()$/;"	f	class:Object	signature:()
+Object::getX	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int getX();$/;"	p	class:Object	access:public	signature:()
+Object::getY	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^int Object :: getY()$/;"	f	class:Object	signature:()
+Object::getY	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int getY();$/;"	p	class:Object	access:public	signature:()
+Object::mass	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int mass; \/\/mass	$/;"	m	class:Object	access:private
+Object::sprite	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		SDL_Surface *sprite;	$/;"	m	class:Object	access:private
+Object::x	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float x, y;$/;"	m	class:Object	access:private
+Object::xAcc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Object	access:private
+Object::xGacc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Object	access:private
+Object::xVel	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Object	access:private
+Object::y	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float x, y;$/;"	m	class:Object	access:private
+Object::yAcc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Object	access:private
+Object::yGacc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Object	access:private
+Object::yVel	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Object	access:private
+Object::~Object	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^Object :: ~Object()$/;"	f	class:Object	signature:()
+Object::~Object	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		~Object();$/;"	p	class:Object	access:public	signature:()
+OnRender	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render::OnRender()$/;"	f	class:Render	signature:()
+OnRender	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void OnRender();$/;"	p	class:Render	access:public	signature:()
+PHYS_FUNCS_H	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	6;"	d
+Pixel_desc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^struct Pixel_desc$/;"	s
+Pixel_desc::ID	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int ID;\/\/identify the pixel, usefule for debugging$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::Xtimer	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int Xtimer;\/\/used for time based movement$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::Ytimer	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int Ytimer;	$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::accelLength	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int accelLength;\/\/how long to apply acceleration$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::color	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int color;\/\/color of pixel$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::deleteMe	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool deleteMe;$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::dimFactor	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int dimFactor; \/\/larger =equals quicker dimmming time$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::dimTimer	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int dimTimer;$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::mass	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int mass; \/\/mass	$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::updated	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int updated; \/\/indicate if the pixel has been manipulated already$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::updatedG	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool updatedG;\/\/hsa gravity accel been added?$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::x	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float x, y; \/\/position$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::xAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::xGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::xVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::y	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float x, y; \/\/position$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::yAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::yGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Pixel_desc	access:public
+Pixel_desc::yVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Pixel_desc	access:public
+Player	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Player :: Player(string sprite_path, int num_rotations, int startingAngle)$/;"	f	class:Player	signature:(string sprite_path, int num_rotations, int startingAngle)
+Player	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Player :: Player(string sprite_path, int num_rotations, int startingAngle,$/;"	f	class:Player	signature:(string sprite_path, int num_rotations, int startingAngle, float maxaccel, int startX, int startY)
+Player	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Player(string sprite_path, int num_rotations, int startingAngle);$/;"	p	class:Player	access:public	signature:(string sprite_path, int num_rotations, int startingAngle)
+Player	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Player(string sprite_path, int num_rotations, int startingAngle,$/;"	p	class:Player	access:public	signature:(string sprite_path, int num_rotations, int startingAngle, float maxaccel, int startX, int startY)
+Player	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^class Player$/;"	c
+Player::DEGREE_INCREMENT	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float DEGREE_INCREMENT;$/;"	m	class:Player	access:private
+Player::Player	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Player :: Player(string sprite_path, int num_rotations, int startingAngle)$/;"	f	class:Player	signature:(string sprite_path, int num_rotations, int startingAngle)
+Player::Player	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Player :: Player(string sprite_path, int num_rotations, int startingAngle,$/;"	f	class:Player	signature:(string sprite_path, int num_rotations, int startingAngle, float maxaccel, int startX, int startY)
+Player::Player	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Player(string sprite_path, int num_rotations, int startingAngle);$/;"	p	class:Player	access:public	signature:(string sprite_path, int num_rotations, int startingAngle)
+Player::Player	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Player(string sprite_path, int num_rotations, int startingAngle,$/;"	p	class:Player	access:public	signature:(string sprite_path, int num_rotations, int startingAngle, float maxaccel, int startX, int startY)
+Player::accelBackward	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: accelBackward()$/;"	f	class:Player	signature:()
+Player::accelBackward	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void accelBackward();$/;"	p	class:Player	access:public	signature:()
+Player::accelForward	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: accelForward() $/;"	f	class:Player	signature:()
+Player::accelForward	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void accelForward();	$/;"	p	class:Player	access:public	signature:()
+Player::currentAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int currentAngle_index;$/;"	m	class:Player	access:private
+Player::currentAngle_index_f	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float currentAngle_index_f;$/;"	m	class:Player	access:private
+Player::decrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: decrementAngle_index()$/;"	f	class:Player	signature:()
+Player::decrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void decrementAngle_index();$/;"	p	class:Player	access:public	signature:()
+Player::decrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: decrementRotation_rate()$/;"	f	class:Player	signature:()
+Player::decrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void decrementRotation_rate();$/;"	p	class:Player	access:public	signature:()
+Player::descriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Entity_desc descriptor;$/;"	m	class:Player	access:private
+Player::exhaustX	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float exhaustX, exhaustY;$/;"	m	class:Player	access:private
+Player::exhaustY	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float exhaustX, exhaustY;$/;"	m	class:Player	access:private
+Player::getAngle	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getAngle()$/;"	f	class:Player	signature:()
+Player::getAngle	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getAngle();$/;"	p	class:Player	access:public	signature:()
+Player::getDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Entity_desc Player :: getDescriptor()$/;"	f	class:Player	signature:()
+Player::getDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Entity_desc getDescriptor();$/;"	p	class:Player	access:public	signature:()
+Player::getRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getRotation_rate()$/;"	f	class:Player	signature:()
+Player::getRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getRotation_rate();$/;"	p	class:Player	access:public	signature:()
+Player::getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^SDL_Surface *Player :: getSprite()$/;"	f	class:Player	signature:()
+Player::getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^SDL_Surface *Player :: getSprite(int angle)$/;"	f	class:Player	signature:(int angle)
+Player::getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		SDL_Surface * getSprite();$/;"	p	class:Player	access:public	signature:()
+Player::getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		SDL_Surface * getSprite(int angle);$/;"	p	class:Player	access:public	signature:(int angle)
+Player::getX	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^int Player :: getX()$/;"	f	class:Player	signature:()
+Player::getX	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int getX();$/;"	p	class:Player	access:public	signature:()
+Player::getXY_exhaust	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: getXY_exhaust(float &xVel, float &yVel)$/;"	f	class:Player	signature:(float &xVel, float &yVel)
+Player::getXY_exhaust	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void getXY_exhaust(float &xVel, float &yVel);$/;"	p	class:Player	access:public	signature:(float &xVel, float &yVel)
+Player::getXacc	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getXacc() $/;"	f	class:Player	signature:()
+Player::getXacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getXacc();$/;"	p	class:Player	access:public	signature:()
+Player::getXvel	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getXvel()$/;"	f	class:Player	signature:()
+Player::getXvel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getXvel();$/;"	p	class:Player	access:public	signature:()
+Player::getY	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^int Player :: getY()$/;"	f	class:Player	signature:()
+Player::getY	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int getY();$/;"	p	class:Player	access:public	signature:()
+Player::getYacc	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getYacc() $/;"	f	class:Player	signature:()
+Player::getYacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getYacc();$/;"	p	class:Player	access:public	signature:()
+Player::getYvel	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getYvel() $/;"	f	class:Player	signature:()
+Player::getYvel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getYvel();$/;"	p	class:Player	access:public	signature:()
+Player::incrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: incrementAngle_index()$/;"	f	class:Player	signature:()
+Player::incrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void incrementAngle_index();$/;"	p	class:Player	access:public	signature:()
+Player::incrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: incrementRotation_rate()$/;"	f	class:Player	signature:()
+Player::incrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void incrementRotation_rate();$/;"	p	class:Player	access:public	signature:()
+Player::lastErr	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float lastErr;$/;"	m	class:Player	access:public
+Player::mass	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int mass; \/\/mass	$/;"	m	class:Player	access:private
+Player::rotationRate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float rotationRate;$/;"	m	class:Player	access:private
+Player::rotationalErrorAccum	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float rotationalErrorAccum;$/;"	m	class:Player	access:public
+Player::rotations	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		vector<SDL_Surface *> rotations;$/;"	m	class:Player	access:private
+Player::setAccelVectors	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setAccelVectors(bool forward)$/;"	f	class:Player	signature:(bool forward)
+Player::setAccelVectors	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setAccelVectors(bool forward);$/;"	p	class:Player	access:public	signature:(bool forward)
+Player::setAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setAngle_index(int angleIndex)$/;"	f	class:Player	signature:(int angleIndex)
+Player::setAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setAngle_index(int angleIndex);$/;"	p	class:Player	access:public	signature:(int angleIndex)
+Player::setDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setDescriptor(Entity_desc new_desc)$/;"	f	class:Player	signature:(Entity_desc new_desc)
+Player::setDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setDescriptor(Entity_desc new_desc);$/;"	p	class:Player	access:public	signature:(Entity_desc new_desc)
+Player::setRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setRotation_rate(int rotRate)$/;"	f	class:Player	signature:(int rotRate)
+Player::setRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setRotation_rate(int rotRate);$/;"	p	class:Player	access:public	signature:(int rotRate)
+Player::updateSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: updateSprite()$/;"	f	class:Player	signature:()
+Player::updateSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void updateSprite();$/;"	p	class:Player	access:public	signature:()
+Player::x	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float x, y;$/;"	m	class:Player	access:private
+Player::xAcc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Player	access:private
+Player::xGacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Player	access:private
+Player::xVel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Player	access:private
+Player::y	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float x, y;$/;"	m	class:Player	access:private
+Player::yAcc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Player	access:private
+Player::yGacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Player	access:private
+Player::yVel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Player	access:private
+Player::~Player	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Player :: ~Player()$/;"	f	class:Player	signature:()
+Player::~Player	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		~Player();$/;"	p	class:Player	access:public	signature:()
+RENDER_H	/home/pacifist/morgans_game/RuPPAT/src/Render.h	8;"	d
+RIGHT	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	5;"	d
+RK4_all	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: RK4_all(float t, float dt)$/;"	f	class:RuPPAT	signature:(float t, float dt)
+RK4_all	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void RK4_all(float t, float dt);$/;"	p	class:RuPPAT	access:public	signature:(float t, float dt)
+RK4_entity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^Entity_desc RuPPAT :: RK4_entity(Entity_desc ent)$/;"	f	class:RuPPAT	signature:(Entity_desc ent)
+RK4_entity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	Entity_desc RK4_entity(Entity_desc ent);$/;"	p	class:RuPPAT	access:public	signature:(Entity_desc ent)
+RK4_parse	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: RK4_parse()$/;"	f	class:RuPPAT	signature:()
+RK4_parse	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void RK4_parse();$/;"	p	class:RuPPAT	access:public	signature:()
+RK4_parse_helper	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	static void *RK4_parse_helper(void *context)$/;"	f	signature:(void *context)
+Render	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^Render::Render(int width, int height, int bpp, Uint32 flags)$/;"	f	class:Render	signature:(int width, int height, int bpp, Uint32 flags)
+Render	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	Render(int width, int height, int BPP, Uint32 flags);$/;"	p	class:Render	access:public	signature:(int width, int height, int BPP, Uint32 flags)
+Render	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^class Render$/;"	c
+Render	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    by 0x40147A: Render::Render(int, int, int, unsigned int) (Render.cpp:10)$/;"	p	class:Render	file:	signature:(int, int, int, unsigned int)
+Render::OnRender	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render::OnRender()$/;"	f	class:Render	signature:()
+Render::OnRender	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void OnRender();$/;"	p	class:Render	access:public	signature:()
+Render::Render	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^Render::Render(int width, int height, int bpp, Uint32 flags)$/;"	f	class:Render	signature:(int width, int height, int bpp, Uint32 flags)
+Render::Render	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	Render(int width, int height, int BPP, Uint32 flags);$/;"	p	class:Render	access:public	signature:(int width, int height, int BPP, Uint32 flags)
+Render::Render	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    by 0x40147A: Render::Render(int, int, int, unsigned int) (Render.cpp:10)$/;"	p	class:Render	file:	signature:(int, int, int, unsigned int)
+Render::getPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^Uint32 Render::getPixel(int x, int y, int screenID)$/;"	f	class:Render	signature:(int x, int y, int screenID)
+Render::getPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	Uint32 getPixel(int x, int y, int screenID);$/;"	p	class:Render	access:public	signature:(int x, int y, int screenID)
+Render::mainBPP	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	int  mainBPP;$/;"	m	class:Render	access:private
+Render::mainFlags	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	Uint32 mainFlags;$/;"	m	class:Render	access:private
+Render::mainHeight	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	int mainHeight;$/;"	m	class:Render	access:private
+Render::mainScreen	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^		SDL_Surface* mainScreen;$/;"	m	class:Render	access:public
+Render::mainWidth	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	int mainWidth;$/;"	m	class:Render	access:private
+Render::putPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: putPixel(int x, int y, int color, int screenID)$/;"	f	class:Render	signature:(int x, int y, int color, int screenID)
+Render::putPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putPixel(int x, int y, int color, int screenID);$/;"	p	class:Render	access:public	signature:(int x, int y, int color, int screenID)
+Render::putPixel2	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: putPixel2(int x, int y, Uint8 r, Uint8 g, Uint8 b)$/;"	f	class:Render	signature:(int x, int y, Uint8 r, Uint8 g, Uint8 b)
+Render::putPixel2	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putPixel2(int x, int y, Uint8 r, Uint8 g, Uint8 b);$/;"	p	class:Render	access:public	signature:(int x, int y, Uint8 r, Uint8 g, Uint8 b)
+Render::putSprite	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: putSprite(int x, int y, SDL_Surface* sprite)$/;"	f	class:Render	signature:(int x, int y, SDL_Surface* sprite)
+Render::putSprite	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putSprite(int x, int y, Entity_desc* entityDetails);$/;"	p	class:Render	access:public	signature:(int x, int y, Entity_desc* entityDetails)
+Render::putSprite	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putSprite(int x, int y, SDL_Surface* sprite);$/;"	p	class:Render	access:public	signature:(int x, int y, SDL_Surface* sprite)
+Render::setMainScreen	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: setMainScreen(int color)$/;"	f	class:Render	signature:(int color)
+Render::setMainScreen	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void setMainScreen(int color);$/;"	p	class:Render	access:public	signature:(int color)
+Render::~Render	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^Render::~Render()$/;"	f	class:Render	signature:()
+Render::~Render	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	~Render();$/;"	p	class:Render	access:public	signature:()
+RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^RuPPAT :: RuPPAT(int width,int height,int bpp, unsigned int flags)$/;"	f	class:RuPPAT	signature:(int width,int height,int bpp, unsigned int flags)
+RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		RuPPAT(int width,int height,int bpp, unsigned int flags);$/;"	p	class:RuPPAT	access:public	signature:(int width,int height,int bpp, unsigned int flags)
+RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^class RuPPAT$/;"	c
+RuPPAT::IDbase	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int IDbase;\/\/value of next ID $/;"	m	class:RuPPAT	access:private
+RuPPAT::RK4_all	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: RK4_all(float t, float dt)$/;"	f	class:RuPPAT	signature:(float t, float dt)
+RuPPAT::RK4_all	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void RK4_all(float t, float dt);$/;"	p	class:RuPPAT	access:public	signature:(float t, float dt)
+RuPPAT::RK4_entity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^Entity_desc RuPPAT :: RK4_entity(Entity_desc ent)$/;"	f	class:RuPPAT	signature:(Entity_desc ent)
+RuPPAT::RK4_entity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	Entity_desc RK4_entity(Entity_desc ent);$/;"	p	class:RuPPAT	access:public	signature:(Entity_desc ent)
+RuPPAT::RK4_parse	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: RK4_parse()$/;"	f	class:RuPPAT	signature:()
+RuPPAT::RK4_parse	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void RK4_parse();$/;"	p	class:RuPPAT	access:public	signature:()
+RuPPAT::RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^RuPPAT :: RuPPAT(int width,int height,int bpp, unsigned int flags)$/;"	f	class:RuPPAT	signature:(int width,int height,int bpp, unsigned int flags)
+RuPPAT::RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		RuPPAT(int width,int height,int bpp, unsigned int flags);$/;"	p	class:RuPPAT	access:public	signature:(int width,int height,int bpp, unsigned int flags)
+RuPPAT::accelPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: accelPlayer(int p_ID, bool isForward)$/;"	f	class:RuPPAT	signature:(int p_ID, bool isForward)
+RuPPAT::accelPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void accelPlayer(int p_ID, bool isForward);$/;"	p	class:RuPPAT	access:public	signature:(int p_ID, bool isForward)
+RuPPAT::addEntity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: addEntity(Entity_desc new_ent)$/;"	f	class:RuPPAT	signature:(Entity_desc new_ent)
+RuPPAT::addEntity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int addEntity(Entity_desc new_ent);$/;"	p	class:RuPPAT	access:public	signature:(Entity_desc new_ent)
+RuPPAT::addObject	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: addObject(string spritePath, int x, int y, int mass)$/;"	f	class:RuPPAT	signature:(string spritePath, int x, int y, int mass)
+RuPPAT::addObject	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int addObject(string spritePath, int x, int y, int mass);$/;"	p	class:RuPPAT	access:public	signature:(string spritePath, int x, int y, int mass)
+RuPPAT::addPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: addPlayer(string spritePath, int numRotations, int startingAngle,$/;"	f	class:RuPPAT	signature:(string spritePath, int numRotations, int startingAngle, float maxAccel, int x, int y)
+RuPPAT::addPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int addPlayer(string spritePath, int numRotations, int startingAngle, $/;"	p	class:RuPPAT	access:public	signature:(string spritePath, int numRotations, int startingAngle, float maxAccel, int x, int y)
+RuPPAT::applyDimming	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: applyDimming(Pixel_desc &pix_t)$/;"	f	class:RuPPAT	signature:(Pixel_desc &pix_t)
+RuPPAT::applyDimming	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int applyDimming(Pixel_desc &pix_t);$/;"	p	class:RuPPAT	access:public	signature:(Pixel_desc &pix_t)
+RuPPAT::createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: createPixElement(  int x, int y,$/;"	f	class:RuPPAT	signature:( int x, int y, int color, int xAccel, int yAccel, int accLength, int dimFactor, int mass )
+RuPPAT::createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: createPixElement(Pixel_desc *pixel )$/;"	f	class:RuPPAT	signature:(Pixel_desc *pixel )
+RuPPAT::createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void createPixElement(  int x, int y,	$/;"	p	class:RuPPAT	access:public	signature:( int x, int y, int color, int xAccel, int yAccel, int accLength, int dimFactor, int mass )
+RuPPAT::createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void createPixElement(Pixel_desc *pixel); $/;"	p	class:RuPPAT	access:public	signature:(Pixel_desc *pixel)
+RuPPAT::deltaTime	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		Uint32 deltaTime;$/;"	m	class:RuPPAT	access:private
+RuPPAT::done	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	bool done;\/\/if this goes false, all threads stop, engine stops$/;"	m	class:RuPPAT	access:private
+RuPPAT::gravitationalConstant	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int gravitationalConstant;$/;"	m	class:RuPPAT	access:private
+RuPPAT::handleAllDeleteMe	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: handleAllDeleteMe()$/;"	f	class:RuPPAT	signature:()
+RuPPAT::handleAllDeleteMe	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void handleAllDeleteMe();$/;"	p	class:RuPPAT	access:public	signature:()
+RuPPAT::handleDelete	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: handleDelete(int k)$/;"	f	class:RuPPAT	signature:(int k)
+RuPPAT::handleDelete	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void handleDelete(int index);$/;"	p	class:RuPPAT	access:public	signature:(int index)
+RuPPAT::lastTime	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		Uint32 lastTime;$/;"	m	class:RuPPAT	access:private
+RuPPAT::orbGrav	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	bool orbGrav;\/\/is orbital gravity on?$/;"	m	class:RuPPAT	access:private
+RuPPAT::parseObjectsToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: parseObjectsToSurface()$/;"	f	class:RuPPAT	signature:()
+RuPPAT::parseObjectsToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void parseObjectsToSurface();$/;"	p	class:RuPPAT	access:public	signature:()
+RuPPAT::parsePlayersToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: parsePlayersToSurface()$/;"	f	class:RuPPAT	signature:()
+RuPPAT::parsePlayersToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void parsePlayersToSurface();$/;"	p	class:RuPPAT	access:public	signature:()
+RuPPAT::parseSelectPixToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: parseSelectPixToSurface()$/;"	f	class:RuPPAT	signature:()
+RuPPAT::parseSelectPixToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void parseSelectPixToSurface();$/;"	p	class:RuPPAT	access:public	signature:()
+RuPPAT::putPixel	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: putPixel(int x, int y, unsigned int color, int id)$/;"	f	class:RuPPAT	signature:(int x, int y, unsigned int color, int id)
+RuPPAT::putPixel	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void putPixel(int x, int y, unsigned int color, int id);$/;"	p	class:RuPPAT	access:public	signature:(int x, int y, unsigned int color, int id)
+RuPPAT::putSprite	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: putSprite(int x, int y, SDL_Surface *sprite)$/;"	f	class:RuPPAT	signature:(int x, int y, SDL_Surface *sprite)
+RuPPAT::putSprite	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void putSprite(int x, int y, SDL_Surface *sprite);$/;"	p	class:RuPPAT	access:public	signature:(int x, int y, SDL_Surface *sprite)
+RuPPAT::runDemos	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: runDemos(void *selection)$/;"	f	class:RuPPAT	signature:(void *selection)
+RuPPAT::runDemos	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void runDemos(void *selection);$/;"	p	class:RuPPAT	access:public	signature:(void *selection)
+RuPPAT::runPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: runPPAT(bool *mainDone, Event_desc &mainEvents$/;"	f	class:RuPPAT	signature:(bool *mainDone, Event_desc &mainEvents , string selection, string option)
+RuPPAT::runPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void runPPAT(bool *mainDone, Event_desc &mainEvents, $/;"	p	class:RuPPAT	access:public	signature:(bool *mainDone, Event_desc &mainEvents, string selection, string option)
+RuPPAT::setUpdateOnSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: setUpdateOnSelectPix(int set)$/;"	f	class:RuPPAT	signature:(int set)
+RuPPAT::setUpdateOnSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void setUpdateOnSelectPix(int set);$/;"	p	class:RuPPAT	access:public	signature:(int set)
+RuPPAT::thisTime	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		Uint32 thisTime;$/;"	m	class:RuPPAT	access:private
+RuPPAT::turnPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: turnPlayer(int p_ID, bool isLeft, int numTurns)$/;"	f	class:RuPPAT	signature:(int p_ID, bool isLeft, int numTurns)
+RuPPAT::turnPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void turnPlayer(int p_ID, bool isLeft, int numTurns);$/;"	p	class:RuPPAT	access:public	signature:(int p_ID, bool isLeft, int numTurns)
+RuPPAT::turnPlayerToCoord	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: turnPlayerToCoord(int p_ID, int x, int y, int rate)$/;"	f	class:RuPPAT	signature:(int p_ID, int x, int y, int rate)
+RuPPAT::turnPlayerToCoord	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void turnPlayerToCoord(int p_ID, int x, int y, int rate);$/;"	p	class:RuPPAT	access:public	signature:(int p_ID, int x, int y, int rate)
+RuPPAT::updateSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: updateSelectPix()$/;"	f	class:RuPPAT	signature:()
+RuPPAT::updateSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void updateSelectPix();$/;"	p	class:RuPPAT	access:public	signature:()
+RuPPAT::~RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^RuPPAT :: ~RuPPAT()$/;"	f	class:RuPPAT	signature:()
+RuPPAT::~RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		~RuPPAT();$/;"	p	class:RuPPAT	access:public	signature:()
+RuPPAT_H	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	13;"	d
+UL	/home/pacifist/morgans_game/RuPPAT/src/Render.h.old	/^/;"	v
+V	/home/pacifist/morgans_game/RuPPAT/screenshot.jpg	/^ˇÿˇ‡/;"	v
+W	/home/pacifist/morgans_game/RuPPAT/test	/^/;"	v
+WIDTH	/home/pacifist/morgans_game/RuPPAT/src/Game.h	14;"	d
+WIDTH	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int WIDTH, HEIGHT;$/;"	v
+WIDTH_cl	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^	int WIDTH_cl = 1024;$/;"	v
+Xtimer	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int Xtimer;\/\/used for time based movement$/;"	m	struct:Pixel_desc	access:public
+Ytimer	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int Ytimer;	$/;"	m	struct:Pixel_desc	access:public
+_GLOBAL__sub_I_game	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    by 0x40142C: _GLOBAL__sub_I_game (main.cpp:32)$/;"	v
+__DESC_H	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	2;"	d
+__GCC_ATOMIC_INT_LOCK_FREE	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h.gch	/^/;"	v
+__GCC_ATOMIC_INT_LOCK_FREE	/home/pacifist/morgans_game/RuPPAT/src/Game.h.gch	/^/;"	v
+__GCC_ATOMIC_INT_LOCK_FREE	/home/pacifist/morgans_game/RuPPAT/src/Object.h.gch	/^/;"	v
+__GCC_ATOMIC_INT_LOCK_FREE	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h.gch	/^/;"	v
+__GCC_ATOMIC_INT_LOCK_FREE	/home/pacifist/morgans_game/RuPPAT/src/Player.h.gch	/^/;"	v
+__GCC_ATOMIC_INT_LOCK_FREE	/home/pacifist/morgans_game/RuPPAT/src/Render.h.gch	/^/;"	v
+__GCC_ATOMIC_INT_LOCK_FREE	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h.gch	/^/;"	v
+__static_initialization_and_destruction_0	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    by 0x401400: __static_initialization_and_destruction_0(int, int) (main.cpp:20)$/;"	v
+a	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+a_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^		w_count=0, s_count=0, a_count=0, d_count=0;$/;"	v
+accelBackward	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: accelBackward()$/;"	f	class:Player	signature:()
+accelBackward	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void accelBackward();$/;"	p	class:Player	access:public	signature:()
+accelForward	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: accelForward() $/;"	f	class:Player	signature:()
+accelForward	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void accelForward();	$/;"	p	class:Player	access:public	signature:()
+accelLength	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int accelLength;\/\/how long to apply acceleration$/;"	m	struct:Pixel_desc	access:public
+accelPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: accelPlayer(int p_ID, bool isForward)$/;"	f	class:RuPPAT	signature:(int p_ID, bool isForward)
+accelPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void accelPlayer(int p_ID, bool isForward);$/;"	p	class:RuPPAT	access:public	signature:(int p_ID, bool isForward)
+addEntity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: addEntity(Entity_desc new_ent)$/;"	f	class:RuPPAT	signature:(Entity_desc new_ent)
+addEntity	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int addEntity(Entity_desc new_ent);$/;"	p	class:RuPPAT	access:public	signature:(Entity_desc new_ent)
+addObject	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: addObject(string spritePath, int x, int y, int mass)$/;"	f	class:RuPPAT	signature:(string spritePath, int x, int y, int mass)
+addObject	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int addObject(string spritePath, int x, int y, int mass);$/;"	p	class:RuPPAT	access:public	signature:(string spritePath, int x, int y, int mass)
+addPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: addPlayer(string spritePath, int numRotations, int startingAngle,$/;"	f	class:RuPPAT	signature:(string spritePath, int numRotations, int startingAngle, float maxAccel, int x, int y)
+addPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int addPlayer(string spritePath, int numRotations, int startingAngle, $/;"	p	class:RuPPAT	access:public	signature:(string spritePath, int numRotations, int startingAngle, float maxAccel, int x, int y)
+allocs	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==   total heap usage: 1,591,753 allocs, 17,285 frees, 59,822,597 bytes allocated$/;"	v
+applyDimming	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^int RuPPAT :: applyDimming(Pixel_desc &pix_t)$/;"	f	class:RuPPAT	signature:(Pixel_desc &pix_t)
+applyDimming	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int applyDimming(Pixel_desc &pix_t);$/;"	p	class:RuPPAT	access:public	signature:(Pixel_desc &pix_t)
+cPE_helper	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	struct cPE_helper$/;"	s
+cPE_helper::context	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			void *context;$/;"	m	struct:cPE_helper	access:public
+cPE_helper::pixel	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			Pixel_desc *pixel;	$/;"	m	struct:cPE_helper	access:public
+character	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			char *character;$/;"	m	struct:helper_char	access:public
+color	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int color;\/\/color of pixel$/;"	m	struct:Pixel_desc	access:public
+context	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			void *context;$/;"	m	struct:cPE_helper	access:public
+context	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			void *context;$/;"	m	struct:helper_char	access:public
+context	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			void *context;$/;"	m	struct:runPPAT_helperArgs	access:public
+createPixElement	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void createPixElement(  int x, int y,	$/;"	p	class:Game	access:public	signature:( int x, int y, int color, int xAccel, int yAccel, int accLength, int dimFactor, int mass )
+createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: createPixElement(  int x, int y,$/;"	f	class:RuPPAT	signature:( int x, int y, int color, int xAccel, int yAccel, int accLength, int dimFactor, int mass )
+createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: createPixElement(Pixel_desc *pixel )$/;"	f	class:RuPPAT	signature:(Pixel_desc *pixel )
+createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void createPixElement(  int x, int y,	$/;"	p	class:RuPPAT	access:public	signature:( int x, int y, int color, int xAccel, int yAccel, int accLength, int dimFactor, int mass )
+createPixElement	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void createPixElement(Pixel_desc *pixel); $/;"	p	class:RuPPAT	access:public	signature:(Pixel_desc *pixel)
+createPixElement_helper	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	static void *createPixElement_helper(void *cpe_helper)$/;"	f	signature:(void *cpe_helper)
+currentAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int currentAngle_index;$/;"	m	class:Player	access:private
+currentAngle_index_f	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float currentAngle_index_f;$/;"	m	class:Player	access:private
+d	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+d_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^		w_count=0, s_count=0, a_count=0, d_count=0;$/;"	v
+ddx	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float ddx;$/;"	m	struct:Derivative	access:public
+ddy	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float ddy;$/;"	m	struct:Derivative	access:public
+decrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: decrementAngle_index()$/;"	f	class:Player	signature:()
+decrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void decrementAngle_index();$/;"	p	class:Player	access:public	signature:()
+decrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: decrementRotation_rate()$/;"	f	class:Player	signature:()
+decrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void decrementRotation_rate();$/;"	p	class:Player	access:public	signature:()
+defaultTurnAmnt	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^	 key_count_limit=0, defaultTurnAmnt=4, fastTurn=3,$/;"	v
+deleteMe	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool deleteMe;$/;"	m	struct:Pixel_desc	access:public
+deltaTime	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		Uint32 deltaTime;$/;"	m	class:RuPPAT	access:private
+descriptor	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		Mass_desc descriptor;$/;"	m	class:Object	access:private
+descriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Entity_desc descriptor;$/;"	m	class:Player	access:private
+dimFactor	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int dimFactor; \/\/larger =equals quicker dimmming time$/;"	m	struct:Pixel_desc	access:public
+dimTimer	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	unsigned int dimTimer;$/;"	m	struct:Pixel_desc	access:public
+done	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	bool done;$/;"	m	class:Game	access:private
+done	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	bool done;\/\/if this goes false, all threads stop, engine stops$/;"	m	class:RuPPAT	access:private
+down	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+down_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int x, y, up_count, down_count, left_count, right_count,$/;"	v
+dx	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float dx;$/;"	m	struct:Derivative	access:public
+dy	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^	float dy;$/;"	m	struct:Derivative	access:public
+engine	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	RuPPAT *engine;	$/;"	m	class:Game	access:private
+entList	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	vector<Entity_desc> entList;\/\/indpenedt sprites on scree$/;"	v
+entList_m	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	vector<Entity_desc> entList_m;\/\/sprites that attract others $/;"	v
+ent_rw_lock	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^		  ent_rw_lock,$/;"	v
+enter	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool enter;$/;"	m	struct:Event_desc	access:public
+errors	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214== For counts of detected and suppressed errors, rerun with: -v$/;"	v
+evaluate	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^Derivative evaluate(Pixel_desc &initial,float t, float dt,const Derivative &d,$/;"	f	signature:(Pixel_desc &initial,float t, float dt,const Derivative &d, const float objMass, const float point_x, const float point_y)
+evaluate_ent	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^Derivative evaluate_ent(Entity_desc &initial,float t, float dt,const Derivative &d,$/;"	f	signature:(Entity_desc &initial,float t, float dt,const Derivative &d, const float objMass, const float point_x, const float point_y)
+event	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	SDL_Event event;	$/;"	m	class:Game	access:private
+exhaustX	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float exhaustX, exhaustY;$/;"	m	class:Player	access:private
+exhaustY	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float exhaustX, exhaustY;$/;"	m	class:Player	access:private
+exit	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==     in use at exit: 57,480,964 bytes in 1,574,468 blocks$/;"	v
+fastTurn	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^	 key_count_limit=0, defaultTurnAmnt=4, fastTurn=3,$/;"	v
+frees	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==   total heap usage: 1,591,753 allocs, 17,285 frees, 59,822,597 bytes allocated$/;"	v
+gXacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int gXacc;$/;"	m	struct:Grav_desc	access:public
+gYacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int gYacc;$/;"	m	struct:Grav_desc	access:public
+game	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^Game *game;$/;"	v
+getAngle	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getAngle()$/;"	f	class:Player	signature:()
+getAngle	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getAngle();$/;"	p	class:Player	access:public	signature:()
+getDesc	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^Mass_desc Object :: getDesc()$/;"	f	class:Object	signature:()
+getDesc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		Mass_desc getDesc();$/;"	p	class:Object	access:public	signature:()
+getDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Entity_desc Player :: getDescriptor()$/;"	f	class:Player	signature:()
+getDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		Entity_desc getDescriptor();$/;"	p	class:Player	access:public	signature:()
+getDistance	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^float getDistance(float x1, float y1, float x2, float y2)$/;"	f	signature:(float x1, float y1, float x2, float y2)
+getPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^Uint32 Render::getPixel(int x, int y, int screenID)$/;"	f	class:Render	signature:(int x, int y, int screenID)
+getPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	Uint32 getPixel(int x, int y, int screenID);$/;"	p	class:Render	access:public	signature:(int x, int y, int screenID)
+getRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getRotation_rate()$/;"	f	class:Player	signature:()
+getRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getRotation_rate();$/;"	p	class:Player	access:public	signature:()
+getSprite	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^SDL_Surface * Object :: getSprite()$/;"	f	class:Object	signature:()
+getSprite	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		SDL_Surface *getSprite();$/;"	p	class:Object	access:public	signature:()
+getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^SDL_Surface *Player :: getSprite()$/;"	f	class:Player	signature:()
+getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^SDL_Surface *Player :: getSprite(int angle)$/;"	f	class:Player	signature:(int angle)
+getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		SDL_Surface * getSprite();$/;"	p	class:Player	access:public	signature:()
+getSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		SDL_Surface * getSprite(int angle);$/;"	p	class:Player	access:public	signature:(int angle)
+getX	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^int Object :: getX()$/;"	f	class:Object	signature:()
+getX	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int getX();$/;"	p	class:Object	access:public	signature:()
+getX	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^int Player :: getX()$/;"	f	class:Player	signature:()
+getX	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int getX();$/;"	p	class:Player	access:public	signature:()
+getXY_exhaust	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: getXY_exhaust(float &xVel, float &yVel)$/;"	f	class:Player	signature:(float &xVel, float &yVel)
+getXY_exhaust	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void getXY_exhaust(float &xVel, float &yVel);$/;"	p	class:Player	access:public	signature:(float &xVel, float &yVel)
+getXacc	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getXacc() $/;"	f	class:Player	signature:()
+getXacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getXacc();$/;"	p	class:Player	access:public	signature:()
+getXvel	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getXvel()$/;"	f	class:Player	signature:()
+getXvel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getXvel();$/;"	p	class:Player	access:public	signature:()
+getY	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^int Object :: getY()$/;"	f	class:Object	signature:()
+getY	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int getY();$/;"	p	class:Object	access:public	signature:()
+getY	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^int Player :: getY()$/;"	f	class:Player	signature:()
+getY	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int getY();$/;"	p	class:Player	access:public	signature:()
+getYacc	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getYacc() $/;"	f	class:Player	signature:()
+getYacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getYacc();$/;"	p	class:Player	access:public	signature:()
+getYvel	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^float Player :: getYvel() $/;"	f	class:Player	signature:()
+getYvel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float getYvel();$/;"	p	class:Player	access:public	signature:()
+gravitationalConstant	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	int gravitationalConstant;$/;"	m	class:RuPPAT	access:private
+handleAllDeleteMe	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: handleAllDeleteMe()$/;"	f	class:RuPPAT	signature:()
+handleAllDeleteMe	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void handleAllDeleteMe();$/;"	p	class:RuPPAT	access:public	signature:()
+handleDelete	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: handleDelete(int k)$/;"	f	class:RuPPAT	signature:(int k)
+handleDelete	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void handleDelete(int index);$/;"	p	class:RuPPAT	access:public	signature:(int index)
+handleEvents	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: handleEvents(Event_desc &mainEvents)$/;"	f	class:Game	signature:(Event_desc &mainEvents)
+handleEvents	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void handleEvents(Event_desc &mainEvents);$/;"	p	class:Game	access:public	signature:(Event_desc &mainEvents)
+handleInput	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^int handleInput(int argc,char *argv[])$/;"	f	signature:(int argc,char *argv[])
+handleInput	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^int handleInput(int argc,char *argv[]);$/;"	p	file:	signature:(int argc,char *argv[])
+helper_char	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	struct helper_char$/;"	s
+helper_char::character	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			char *character;$/;"	m	struct:helper_char	access:public
+helper_char::context	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			void *context;$/;"	m	struct:helper_char	access:public
+in	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==     in use at exit: 57,480,964 bytes in 1,574,468 blocks$/;"	v
+in	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    still reachable: 57,478,644 bytes in 1,574,456 blocks$/;"	v
+in	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214== 1,572,864 bytes in 98,304 blocks are still reachable in loss record 316 of 319$/;"	v
+in	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214== 11,010,048 bytes in 688,128 blocks are still reachable in loss record 318 of 319$/;"	v
+in	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214== 38,535,168 bytes in 688,128 blocks are still reachable in loss record 319 of 319$/;"	v
+in	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214== 5,505,024 bytes in 98,304 blocks are still reachable in loss record 317 of 319$/;"	v
+incrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: incrementAngle_index()$/;"	f	class:Player	signature:()
+incrementAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void incrementAngle_index();$/;"	p	class:Player	access:public	signature:()
+incrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: incrementRotation_rate()$/;"	f	class:Player	signature:()
+incrementRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void incrementRotation_rate();$/;"	p	class:Player	access:public	signature:()
+initEvent	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: initEvent(Event_desc &initMe)$/;"	f	class:Game	signature:(Event_desc &initMe)
+initEvent	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void initEvent(Event_desc &initMe);$/;"	p	class:Game	access:public	signature:(Event_desc &initMe)
+integrate	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^void integrate (Pixel_desc &state, float t, float dt, $/;"	f	signature:(Pixel_desc &state, float t, float dt, const float objMass, const float point_x, const float point_y )
+integrate_ent	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h	/^void integrate_ent (Entity_desc &state, float t, float dt, $/;"	f	signature:(Entity_desc &state, float t, float dt, const float objMass, const float point_x, const float point_y )
+k_DOWN	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^bool k_UP=false, k_DOWN=false, k_LEFT=false, k_RIGHT=false,$/;"	v
+k_LEFT	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^bool k_UP=false, k_DOWN=false, k_LEFT=false, k_RIGHT=false,$/;"	v
+k_RIGHT	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^bool k_UP=false, k_DOWN=false, k_LEFT=false, k_RIGHT=false,$/;"	v
+k_UP	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^bool k_UP=false, k_DOWN=false, k_LEFT=false, k_RIGHT=false,$/;"	v
+k_lCTRL	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^	k_lCTRL=false, k_lMOUSE;$/;"	v
+k_lMOUSE	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^	k_lCTRL=false, k_lMOUSE;$/;"	v
+key_count_limit	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^	 key_count_limit=0, defaultTurnAmnt=4, fastTurn=3,$/;"	v
+lastErr	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float lastErr;$/;"	m	class:Player	access:public
+lastTime	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		Uint32 lastTime;$/;"	m	class:RuPPAT	access:private
+left	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+leftCtrl	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool rightCtrl, leftCtrl;$/;"	m	struct:Event_desc	access:public
+left_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int x, y, up_count, down_count, left_count, right_count,$/;"	v
+lost	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==      possibly lost: 2,128 bytes in 7 blocks$/;"	v
+mDone	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			bool *mDone;$/;"	m	struct:runPPAT_helperArgs	access:public
+mEvents	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			Event_desc *mEvents;$/;"	m	struct:runPPAT_helperArgs	access:public
+main	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    by 0x4013B1: main (main.cpp:28)$/;"	v
+mainBPP	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	int  mainBPP;$/;"	m	class:Render	access:private
+mainFlags	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	Uint32 mainFlags;$/;"	m	class:Render	access:private
+mainHeight	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	int mainHeight;$/;"	m	class:Render	access:private
+mainScreen	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^		SDL_Surface* mainScreen;$/;"	m	class:Render	access:public
+mainWidth	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	int mainWidth;$/;"	m	class:Render	access:private
+mass	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int mass; \/\/mass	$/;"	m	struct:Pixel_desc	access:public
+mass	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int mass;$/;"	m	struct:Entity_desc	access:public
+mass	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int mass;$/;"	m	struct:Mass_desc	access:public
+mass	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int mass; \/\/mass	$/;"	m	class:Object	access:private
+mass	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int mass; \/\/mass	$/;"	m	class:Player	access:private
+mass_rw_lock	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^		  mass_rw_lock,$/;"	v
+maxAccel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float maxAccel;$/;"	m	struct:Entity_desc	access:public
+mouse_x	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int mouse_x, mouse_y;$/;"	v
+mouse_y	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int mouse_x, mouse_y;$/;"	v
+n	/home/pacifist/morgans_game/RuPPAT/src/red_ship.png	/^ÒôΩÎısÁ¨œnﬁ¨;s∆ﬂ"¨*ŒVñ∫©c÷)ÕLp‰Tˇøoê·Hƒπ<1·º40m™ôXπèæÂhÏ§kªﬂsû‹ªuK˛vxÿøπ∂ˆ"p~øÛD⁄ÔT¸{eE˝˙“•Í ‹ú$)äÌU’¶f¯‹˛≥=®Q&NŸáâ/;"	v
+noDrawEffect	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool noDrawEffect;$/;"	m	struct:Entity_desc	access:public
+nq	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h.gch	/^lqû/;"	v
+objectList	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	vector<Object *> objectList;$/;"	v
+object_rw_lock	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^		  object_rw_lock;$/;"	v
+option	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			string option;$/;"	m	struct:runPPAT_helperArgs	access:public
+option	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^	string option;$/;"	v
+oq	/home/pacifist/morgans_game/RuPPAT/src/PhysFuncs.h.gch	/^lqû/;"	v
+orbGrav	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	bool orbGrav;\/\/is orbital gravity on?$/;"	m	class:RuPPAT	access:private
+p	/home/pacifist/morgans_game/RuPPAT/screenshot.jpg	/^ÛÀ«)ˆ˚J‹]zÏ≥}!C;H„q◊€f"GÓ †6ä®9 ç)Êêìç(eËAﬂ™©ã§;!|í<ﬂ$ô!e∑"^µJWô!ù¿â•p>,ﬂºlFe¯:Ï64ø)ï‡ë‡≠%X«r£™ı'Àl@2›z˝«\\ï7ä4ﬁ˝≈‚¡$/;"	v
+p	/home/pacifist/morgans_game/RuPPAT/src/red_ship.png	/^Å9ÑV*(ä‚^)E¨§âíRBRˇçwª∂w◊Ø7é∑‚÷9Ω˜4o>ΩﬂºôÅÁˆ€b2)ãy>“4ÒÒ°Cb\/i\/á€◊ØK?\\Ω™Ut›/;"	v
+pMassList	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	vector<Mass_desc> pMassList;$/;"	v
+parseObjectsToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: parseObjectsToSurface()$/;"	f	class:RuPPAT	signature:()
+parseObjectsToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void parseObjectsToSurface();$/;"	p	class:RuPPAT	access:public	signature:()
+parsePlayersToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: parsePlayersToSurface()$/;"	f	class:RuPPAT	signature:()
+parsePlayersToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void parsePlayersToSurface();$/;"	p	class:RuPPAT	access:public	signature:()
+parseSelectPixToSurface	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void parseSelectPixToSurface();$/;"	p	class:Game	access:public	signature:()
+parseSelectPixToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: parseSelectPixToSurface()$/;"	f	class:RuPPAT	signature:()
+parseSelectPixToSurface	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void parseSelectPixToSurface();$/;"	p	class:RuPPAT	access:public	signature:()
+pix_list_lock_2	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^pthread_mutex_t  pix_list_lock_2;$/;"	v
+pix_rw_lock	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^pthread_rwlock_t  pix_rw_lock, $/;"	v
+pixel	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			Pixel_desc *pixel;	$/;"	m	struct:cPE_helper	access:public
+pixelList	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	vector<Pixel_desc> pixelList;\/\/independent pixels on screen$/;"	v
+pixelList_m	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	vector<Pixel_desc> pixelList_m;\/\/points of mass on screen$/;"	v
+player_rw_lock	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^		  player_rw_lock,$/;"	v
+players	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	vector<Player *> players;$/;"	m	class:Game	access:private
+players	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	vector<Player *> players;\/\/independent sprite that controlled by AI or human$/;"	v
+putPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: putPixel(int x, int y, int color, int screenID)$/;"	f	class:Render	signature:(int x, int y, int color, int screenID)
+putPixel	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putPixel(int x, int y, int color, int screenID);$/;"	p	class:Render	access:public	signature:(int x, int y, int color, int screenID)
+putPixel	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: putPixel(int x, int y, unsigned int color, int id)$/;"	f	class:RuPPAT	signature:(int x, int y, unsigned int color, int id)
+putPixel	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void putPixel(int x, int y, unsigned int color, int id);$/;"	p	class:RuPPAT	access:public	signature:(int x, int y, unsigned int color, int id)
+putPixel2	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: putPixel2(int x, int y, Uint8 r, Uint8 g, Uint8 b)$/;"	f	class:Render	signature:(int x, int y, Uint8 r, Uint8 g, Uint8 b)
+putPixel2	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putPixel2(int x, int y, Uint8 r, Uint8 g, Uint8 b);$/;"	p	class:Render	access:public	signature:(int x, int y, Uint8 r, Uint8 g, Uint8 b)
+putSprite	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: putSprite(int x, int y, SDL_Surface* sprite)$/;"	f	class:Render	signature:(int x, int y, SDL_Surface* sprite)
+putSprite	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putSprite(int x, int y, Entity_desc* entityDetails);$/;"	p	class:Render	access:public	signature:(int x, int y, Entity_desc* entityDetails)
+putSprite	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void putSprite(int x, int y, SDL_Surface* sprite);$/;"	p	class:Render	access:public	signature:(int x, int y, SDL_Surface* sprite)
+putSprite	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: putSprite(int x, int y, SDL_Surface *sprite)$/;"	f	class:RuPPAT	signature:(int x, int y, SDL_Surface *sprite)
+putSprite	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void putSprite(int x, int y, SDL_Surface *sprite);$/;"	p	class:RuPPAT	access:public	signature:(int x, int y, SDL_Surface *sprite)
+reachable	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==    still reachable: 57,478,644 bytes in 1,574,456 blocks$/;"	v
+right	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+rightCtrl	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool rightCtrl, leftCtrl;$/;"	m	struct:Event_desc	access:public
+right_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int x, y, up_count, down_count, left_count, right_count,$/;"	v
+rotateSpriteToCoor	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: rotateSpriteToCoor(int p_ID,int x, int y, int rate)$/;"	f	class:Game	signature:(int p_ID,int x, int y, int rate)
+rotateSpriteToCoor	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void rotateSpriteToCoor(int p_ID, int x, int y, int turnRate);$/;"	p	class:Game	access:public	signature:(int p_ID, int x, int y, int turnRate)
+rotationRate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float rotationRate;$/;"	m	class:Player	access:private
+rotationalErrorAccum	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float rotationalErrorAccum;$/;"	m	class:Player	access:public
+rotations	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		vector<SDL_Surface *> rotations;$/;"	m	class:Player	access:private
+run	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^void Game :: run(string selection, string option)$/;"	f	class:Game	signature:(string selection, string option)
+run	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void run(string selection, string option);	$/;"	p	class:Game	access:public	signature:(string selection, string option)
+runDemos	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	float runDemos(string selection, string option1, string option2,$/;"	p	class:Game	access:public	signature:(string selection, string option1, string option2, int x1, int y1, int x2, int y2, int x3, int y3)
+runDemos	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: runDemos(void *selection)$/;"	f	class:RuPPAT	signature:(void *selection)
+runDemos	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void runDemos(void *selection);$/;"	p	class:RuPPAT	access:public	signature:(void *selection)
+runDemos_helper	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	static void *runDemos_helper(void *helper_c)$/;"	f	signature:(void *helper_c)
+runPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: runPPAT(bool *mainDone, Event_desc &mainEvents$/;"	f	class:RuPPAT	signature:(bool *mainDone, Event_desc &mainEvents , string selection, string option)
+runPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void runPPAT(bool *mainDone, Event_desc &mainEvents, $/;"	p	class:RuPPAT	access:public	signature:(bool *mainDone, Event_desc &mainEvents, string selection, string option)
+runPPAT_helper	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	static void *runPPAT_helper(void *helper_args)$/;"	f	signature:(void *helper_args)
+runPPAT_helperArgs	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	struct runPPAT_helperArgs$/;"	s
+runPPAT_helperArgs::context	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			void *context;$/;"	m	struct:runPPAT_helperArgs	access:public
+runPPAT_helperArgs::mDone	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			bool *mDone;$/;"	m	struct:runPPAT_helperArgs	access:public
+runPPAT_helperArgs::mEvents	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			Event_desc *mEvents;$/;"	m	struct:runPPAT_helperArgs	access:public
+runPPAT_helperArgs::option	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			string option;$/;"	m	struct:runPPAT_helperArgs	access:public
+runPPAT_helperArgs::selection	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			string selection;$/;"	m	struct:runPPAT_helperArgs	access:public
+s	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+s_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^		w_count=0, s_count=0, a_count=0, d_count=0;$/;"	v
+selection	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^			string selection;$/;"	m	struct:runPPAT_helperArgs	access:public
+setAccelVectors	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setAccelVectors(bool forward)$/;"	f	class:Player	signature:(bool forward)
+setAccelVectors	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setAccelVectors(bool forward);$/;"	p	class:Player	access:public	signature:(bool forward)
+setAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setAngle_index(int angleIndex)$/;"	f	class:Player	signature:(int angleIndex)
+setAngle_index	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setAngle_index(int angleIndex);$/;"	p	class:Player	access:public	signature:(int angleIndex)
+setDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setDescriptor(Entity_desc new_desc)$/;"	f	class:Player	signature:(Entity_desc new_desc)
+setDescriptor	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setDescriptor(Entity_desc new_desc);$/;"	p	class:Player	access:public	signature:(Entity_desc new_desc)
+setMainScreen	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^void Render :: setMainScreen(int color)$/;"	f	class:Render	signature:(int color)
+setMainScreen	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	void setMainScreen(int color);$/;"	p	class:Render	access:public	signature:(int color)
+setRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: setRotation_rate(int rotRate)$/;"	f	class:Player	signature:(int rotRate)
+setRotation_rate	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void setRotation_rate(int rotRate);$/;"	p	class:Player	access:public	signature:(int rotRate)
+setUpdateOnSelectPix	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void setUpdateOnSelectPix(int set);$/;"	p	class:Game	access:public	signature:(int set)
+setUpdateOnSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: setUpdateOnSelectPix(int set)$/;"	f	class:RuPPAT	signature:(int set)
+setUpdateOnSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void setUpdateOnSelectPix(int set);$/;"	p	class:RuPPAT	access:public	signature:(int set)
+space	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool space;$/;"	m	struct:Event_desc	access:public
+space	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	bool space;\/\/$/;"	m	class:Game	access:private
+sprite	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		SDL_Surface *sprite;	$/;"	m	class:Object	access:private
+tIME	/home/pacifist/morgans_game/RuPPAT/src/background_one_1920x1080.png	/^/;"	v
+testThread	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void *testThread(void *args);$/;"	p	signature:(void *args)
+thisTime	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		Uint32 thisTime;$/;"	m	class:RuPPAT	access:private
+tmpPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^Pixel_desc tmpPix;	$/;"	v
+toRender	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^	queue<Pixel_desc> toRender;$/;"	v
+turnPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: turnPlayer(int p_ID, bool isLeft, int numTurns)$/;"	f	class:RuPPAT	signature:(int p_ID, bool isLeft, int numTurns)
+turnPlayer	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void turnPlayer(int p_ID, bool isLeft, int numTurns);$/;"	p	class:RuPPAT	access:public	signature:(int p_ID, bool isLeft, int numTurns)
+turnPlayerToCoord	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: turnPlayerToCoord(int p_ID, int x, int y, int rate)$/;"	f	class:RuPPAT	signature:(int p_ID, int x, int y, int rate)
+turnPlayerToCoord	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void turnPlayerToCoord(int p_ID, int x, int y, int rate);$/;"	p	class:RuPPAT	access:public	signature:(int p_ID, int x, int y, int rate)
+u	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h.gch	/^/;"	v
+up	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool up,left,down,right;$/;"	m	struct:Event_desc	access:public
+up_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int x, y, up_count, down_count, left_count, right_count,$/;"	v
+updateSelectPix	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	void updateSelectPix();$/;"	p	class:Game	access:public	signature:()
+updateSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^void RuPPAT :: updateSelectPix()$/;"	f	class:RuPPAT	signature:()
+updateSelectPix	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	void updateSelectPix();$/;"	p	class:RuPPAT	access:public	signature:()
+updateSelectPix_helper	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^	static void *updateSelectPix_helper(void *context)$/;"	f	signature:(void *context)
+updateSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^void Player :: updateSprite()$/;"	f	class:Player	signature:()
+updateSprite	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		void updateSprite();$/;"	p	class:Player	access:public	signature:()
+updated	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int updated; \/\/indicate if the pixel has been manipulated already$/;"	m	struct:Pixel_desc	access:public
+updatedG	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool updatedG;\/\/hsa gravity accel been added?$/;"	m	struct:Pixel_desc	access:public
+usage	/home/pacifist/morgans_game/RuPPAT/valErr	/^==26214==   total heap usage: 1,591,753 allocs, 17,285 frees, 59,822,597 bytes allocated$/;"	v
+w	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	bool w,a,s,d;$/;"	m	struct:Event_desc	access:public
+w_count	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^		w_count=0, s_count=0, a_count=0, d_count=0;$/;"	v
+x	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float x, y; \/\/position$/;"	m	struct:Pixel_desc	access:public
+x	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float x;$/;"	m	struct:Entity_desc	access:public
+x	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int x, y;$/;"	m	struct:Grav_desc	access:public
+x	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int x, y, up_count, down_count, left_count, right_count,$/;"	v
+x	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float x, y;$/;"	m	class:Object	access:private
+x	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float x, y;$/;"	m	class:Player	access:private
+xAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Entity_desc	access:public
+xAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Pixel_desc	access:public
+xAcc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Object	access:private
+xAcc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Player	access:private
+xGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Entity_desc	access:public
+xGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Pixel_desc	access:public
+xGacc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Object	access:private
+xGacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Player	access:private
+xLoc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xLoc;$/;"	m	struct:Mass_desc	access:public
+xVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Entity_desc	access:public
+xVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Pixel_desc	access:public
+xVel	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Object	access:private
+xVel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Player	access:private
+x_o	/home/pacifist/morgans_game/RuPPAT/src/main.cpp	/^int x_o = XInitThreads();$/;"	v
+y	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float x, y; \/\/position$/;"	m	struct:Pixel_desc	access:public
+y	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float y;$/;"	m	struct:Entity_desc	access:public
+y	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int x, y;$/;"	m	struct:Grav_desc	access:public
+y	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^int x, y, up_count, down_count, left_count, right_count,$/;"	v
+y	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float x, y;$/;"	m	class:Object	access:private
+y	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float x, y;$/;"	m	class:Player	access:private
+yAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Entity_desc	access:public
+yAcc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xAcc, yAcc;\/\/acceleration vector$/;"	m	struct:Pixel_desc	access:public
+yAcc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Object	access:private
+yAcc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xAcc, yAcc;\/\/acceleration vector$/;"	m	class:Player	access:private
+yGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Entity_desc	access:public
+yGacc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int xGacc,yGacc; \/\/grav acceleration$/;"	m	struct:Pixel_desc	access:public
+yGacc	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Object	access:private
+yGacc	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		int xGacc,yGacc; \/\/grav acceleration$/;"	m	class:Player	access:private
+yLoc	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	int yLoc;$/;"	m	struct:Mass_desc	access:public
+yVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Entity_desc	access:public
+yVel	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h	/^	float xVel, yVel;\/\/velocity vector$/;"	m	struct:Pixel_desc	access:public
+yVel	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Object	access:private
+yVel	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		float xVel, yVel;\/\/velocity vector$/;"	m	class:Player	access:private
+~Game	/home/pacifist/morgans_game/RuPPAT/src/Game.cpp	/^Game ::~Game()$/;"	f	class:Game	signature:()
+~Game	/home/pacifist/morgans_game/RuPPAT/src/Game.h	/^	~Game();$/;"	p	class:Game	access:public	signature:()
+~Object	/home/pacifist/morgans_game/RuPPAT/src/Object.cpp	/^Object :: ~Object()$/;"	f	class:Object	signature:()
+~Object	/home/pacifist/morgans_game/RuPPAT/src/Object.h	/^		~Object();$/;"	p	class:Object	access:public	signature:()
+~Player	/home/pacifist/morgans_game/RuPPAT/src/Player.cpp	/^Player :: ~Player()$/;"	f	class:Player	signature:()
+~Player	/home/pacifist/morgans_game/RuPPAT/src/Player.h	/^		~Player();$/;"	p	class:Player	access:public	signature:()
+~Render	/home/pacifist/morgans_game/RuPPAT/src/Render.cpp	/^Render::~Render()$/;"	f	class:Render	signature:()
+~Render	/home/pacifist/morgans_game/RuPPAT/src/Render.h	/^	~Render();$/;"	p	class:Render	access:public	signature:()
+~RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.cpp	/^RuPPAT :: ~RuPPAT()$/;"	f	class:RuPPAT	signature:()
+~RuPPAT	/home/pacifist/morgans_game/RuPPAT/src/RuPPAT.h	/^		~RuPPAT();$/;"	p	class:RuPPAT	access:public	signature:()
+~ıu	/home/pacifist/morgans_game/RuPPAT/src/Descriptors.h.gch	/^/;"	v
